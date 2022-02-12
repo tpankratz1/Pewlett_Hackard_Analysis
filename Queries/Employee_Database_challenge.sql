@@ -74,3 +74,20 @@ ORDER BY e.emp_no
 ;
 
 SELECT * FROM mentorship_eligibilty;
+
+
+-- Summary queries
+
+-- Total roles that will need to filled
+
+SELECT COUNT(unique_titles.title) from unique_titles;
+
+
+-- Eligible mentors by title
+
+SELECT COUNT(me.title),
+me.title
+FROM mentorship_eligibilty as me
+GROUP BY title
+ORDER BY count DESC
+;
