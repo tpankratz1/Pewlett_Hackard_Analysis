@@ -28,7 +28,6 @@ SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
 rt.first_name,
 rt.last_name,
 rt.title
-
 INTO unique_titles
 FROM retirement_titles AS rt
 WHERE to_date = '9999-01-01'
@@ -45,7 +44,8 @@ ut.title
 INTO retiring_titles
 FROM unique_titles as ut
 GROUP BY title
-ORDER BY count DESC;
+ORDER BY count DESC
+;
 
 SELECT * FROM retiring_titles;
 
