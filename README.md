@@ -21,7 +21,7 @@ As part of planning at Pewlett Hackard (PH), management has asked for experts to
 ## Summary
 
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-After running an additional query, it has again become clear that the total number of employees soon retiring is large: 72,458 employees (see *Query* and *Table*, below).
+After running an additional query, it has again become clear that the total number of employees soon retiring and that will need to be filled is large: 72,458 employees (see *Query* and *Table*, below).
 
 ##### *Query*
 ![Query](./Resources/total_eligible_retirees_query.png)    
@@ -38,7 +38,7 @@ Another query was run to determine how meany employees are eligible to mentor th
 ##### *Table*
 ![Table](./Resources/mentor_eligible_by_title_table.png)
 
-With 72,458 total employees soon to retire, a calculation was done to determine the ratio of mentors to new hires, by title. This will give a better understanding of the opportunities and gaps for mentoring:
+With 72,458 total employees soon to retire, a calculation was done to determine the ratio of mentors to new hires, by title. This gives a better understanding of the opportunities and gaps for mentoring. Some of the following title areas appear to have adequate mentorship, while others do not:
 - Staff: 7,636/427 = 17:1 ratio (IE, 17 new Staff positions per mentor)
 - Senior Engineer: 25,916/409 = 63:1 ratio
 - Senior Staff: 24,926/297 = 83:1 ratio
